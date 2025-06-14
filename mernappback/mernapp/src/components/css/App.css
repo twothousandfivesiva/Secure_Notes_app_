@@ -1,0 +1,63 @@
+/* Background styling */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  height: 100%;
+  color: #333;
+}
+
+/* Center card with custom styles */
+.login-card {
+  background: #fff;
+  border-radius: 20px;
+  width: 400px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styling */
+.custom-input {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #9013fe;
+  box-shadow: 0 0 5px rgba(144, 19, 254, 0.5);
+}
+
+/* Button styling */
+.custom-btn {
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(144, 19, 254, 0.5);
+}
+
+/* Hyperlink styling */
+a {
+  color: #9013fe;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .login-card {
+    width: 90%;
+  }
+}
